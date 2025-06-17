@@ -1,7 +1,7 @@
 import qrcode
 
 # Sample QR Codes from MongoDB
-qr_codes = ["QR12346"]
+qr_codes = ["2021IMSE021"]
 
 for qr in qr_codes:
     qr_img = qrcode.make(qr)
